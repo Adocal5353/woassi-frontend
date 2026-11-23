@@ -107,7 +107,7 @@ export function LegalPage({ title, summary, intro, accent, sections, closing, cu
         </div>
       </main>
 
-      <SiteFooter variant="compact" current={current} />
+      <SiteFooter current={current} />
     </>
   );
 }

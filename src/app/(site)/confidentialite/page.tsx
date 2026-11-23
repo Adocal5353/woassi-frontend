@@ -17,11 +17,11 @@ const sections: LegalSection[] = [
     body: (
       <>
         <p>
-          {name} est édité par [raison sociale], [forme juridique] au capital de [montant] FCFA,
-          immatriculée au RCCM sous le n° [numéro], dont le siège est situé [adresse], Lomé, Togo.
+          {name} est édité par TOOTLE, SARL au capital de 1 000 000 FCFA,
+          immatriculée au RCCM sous le n° TG-LFW-01-2024-B12-01229, dont le siège est situé Agoè, Sanguéra, Togo.
           Pour les données de nos utilisateurs commerçants, nous sommes responsable du traitement.
         </p>
-        <p>Contact pour toute question sur vos données : [adresse e-mail dédiée].</p>
+        <p>Contact pour toute question sur vos données : <a href="mailto:contact@tootlecorp.com">contact@tootlecorp.com</a>.</p>
       </>
     ),
   },
@@ -102,8 +102,8 @@ const sections: LegalSection[] = [
           </li>
           <li>le livreur assigné à une commande : nom, numéro et adresse du client concerné ;</li>
           <li>
-            nos prestataires techniques : hébergement ([nom du prestataire]), envoi des SMS de
-            vérification ([nom du prestataire]) ;
+            nos prestataires techniques : hébergement (Contabo), envoi des SMS de
+            vérification (AfrikSMS), analyse des statistiques d&apos;usage (Google Analytics) ;
           </li>
           <li>les autorités, lorsque la loi nous y oblige.</li>
         </ul>
@@ -126,11 +126,51 @@ const sections: LegalSection[] = [
     id: "conservation",
     navTitle: "Durée de conservation",
     body: (
-      <ul>
-        <li>données du compte : tant que le compte est actif, puis [durée] après sa fermeture ;</li>
-        <li>factures et données comptables : [durée légale applicable] ;</li>
-        <li>journaux techniques : [durée].</li>
-      </ul>
+      <div>
+        <p>
+          Les données à caractère personnel sont conservées conformément à la
+          réglementation togolaise applicable, notamment la loi n° 2019-014
+          du 29 octobre 2019 relative à la protection des données à caractère personnel.
+        </p>
+
+        <p>Les durées de conservation sont définies comme suit :</p>
+
+        <ul>
+          <li>
+            <strong>Données du compte utilisateur :</strong>
+            pendant toute la durée d&apos;activité du compte, puis pendant une période
+            maximale de trois (3) ans après sa fermeture, sous réserve des
+            obligations légales ou de la nécessité de conserver certaines données
+            pour la constatation, l&apos;exercice ou la défense de droits en justice ;
+          </li>
+          <li>
+            <strong>Factures et données comptables :</strong>
+            dix (10) ans, conformément aux obligations légales applicables ;
+          </li>
+          <li>
+            <strong>Journaux techniques et de connexion :</strong>
+            douze (12) mois à compter de leur génération ;
+          </li>
+          <li>
+            <strong>Sauvegardes techniques :</strong>
+            dans la limite de quatre-vingt-dix (90) jours, selon les cycles de
+            sauvegarde et de renouvellement du système.
+          </li>
+        </ul>
+
+        <p>
+          À l&apos;expiration des durées applicables, les données concernées sont
+          supprimées ou anonymisées, sauf obligation légale de conservation ou
+          nécessité légitime de leur archivage.
+        </p>
+
+        <p>
+          Lorsque certaines données doivent être conservées au-delà de leur durée
+          d&apos;utilisation courante pour satisfaire à une obligation légale ou préserver
+          des droits en justice, elles font l&apos;objet d&apos;un archivage avec un accès
+          limité aux seules personnes habilitées.
+        </p>
+      </div>
     ),
   },
   {

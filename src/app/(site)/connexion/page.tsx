@@ -15,7 +15,7 @@ export default function LoginPage() {
       <main id="contenu" tabIndex={-1} className="container-page pt-6 pb-20">
         <ComingSoon title="Se connecter" backHref={routes.home} backLabel="Retour à l'accueil" />
       </main>
-      <SiteFooter variant="compact" />
+      <SiteFooter />
     </>
   );
 }

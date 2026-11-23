@@ -15,7 +15,7 @@ export default function SignupPage() {
       <main id="contenu" tabIndex={-1} className="container-page pt-6 pb-20">
         <ComingSoon title="Créer mon compte" backHref={routes.home} backLabel="Retour à l'accueil" />
       </main>
-      <SiteFooter variant="compact" />
+      <SiteFooter />
     </>
   );
 }

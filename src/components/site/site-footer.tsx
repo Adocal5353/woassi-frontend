@@ -47,44 +47,11 @@ function LinkColumn({
 }
 
 /**
- * Pied de page. `full` sur la landing (colonnes + contact), `compact` sur les
- * pages légales. `current` marque la page en cours (aria-current).
+ * Pied de page commun à toutes les pages publiques du site.
+ * `current` marque la page en cours (aria-current).
  */
-export function SiteFooter({
-  variant = "full",
-  current,
-}: {
-  variant?: "full" | "compact";
-  current?: string;
-}) {
+export function SiteFooter({ current }: { current?: string }) {
   const { contact, copyrightYear, name } = siteConfig;
-
-  if (variant === "compact") {
-    return (
-      <footer className="on-dark bg-ink text-fg-inverse-subtle">
-        <div className="container-page flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-6 text-sm">
-          <p>
-            © {copyrightYear} {name} · {contact.city}
-          </p>
-          <nav aria-label="Légal">
-            <ul role="list" className="flex flex-wrap gap-x-6">
-              {legalLinks.map(({ href, label }) => (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    aria-current={href === current ? "page" : undefined}
-                    className={`${footerLink} aria-[current=page]:text-white`}
-                  >
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
-      </footer>
-    );
-  }
 
   return (
     <footer className="on-dark bg-ink text-fg-inverse-muted">

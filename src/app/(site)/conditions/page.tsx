@@ -16,7 +16,7 @@ const sections: LegalSection[] = [
     navTitle: "Objet",
     body: (
       <p>
-        {name}, édité par [raison sociale] ([adresse], Lomé, Togo), est une application web qui
+        {name}, édité par TOOTLE (Agoè, Zanguera, Togo), est une application web qui
         permet aux commerçants de gérer leur catalogue, leur stock, leurs commandes, leurs factures,
         leurs livraisons et leur comptabilité à partir des ventes réalisées sur WhatsApp Business.
       </p>
@@ -126,7 +126,7 @@ const sections: LegalSection[] = [
     navTitle: "Propriété intellectuelle",
     body: (
       <p>
-        L&apos;application, sa marque et son design appartiennent à [raison sociale]. Vos contenus
+        L&apos;application, sa marque et son design appartiennent à TOOTLE. Vos contenus
         (photos, descriptions, logo) restent les vôtres ; vous nous autorisez à les utiliser
         uniquement pour faire fonctionner le service, par exemple pour les publier dans votre
         catalogue WhatsApp et sur vos factures.

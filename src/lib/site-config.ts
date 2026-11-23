@@ -11,12 +11,12 @@ export const siteConfig = {
     "Catalogue, commandes, factures, livraisons et compta réunis dans une seule app. Vos clients, eux, ne quittent jamais WhatsApp.",
   copyrightYear: 2026,
   contact: {
-    email: "[adresse e-mail]",
-    whatsapp: "[numéro WhatsApp]",
-    support: "[numéro de support]",
+    email: "contact@woassi.com",
+    whatsapp: "+228 97230323",
+    support: "+228 97230323",
     city: "Lomé, Togo",
   },
-  legalUpdatedAt: "[JJ/MM/AAAA]",
+  legalUpdatedAt: "23/11/2026",
 } as const;
 
 export const routes = {
